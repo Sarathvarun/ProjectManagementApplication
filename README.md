@@ -1,5 +1,11 @@
 # ProjectManagementApplication
 
+Implementation details:
+
+i) This object model for a project management application has been creaed using Java. 
+
+ii) This object model has been arirved in the basis of MVC Pattern. 
+
 Requirements:
 
 i) A project will have multiple tasks that can be performed by Users.
