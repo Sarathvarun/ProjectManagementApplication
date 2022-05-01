@@ -9,7 +9,7 @@ public class Project {
     private long dueDate;
     private User owner;
     private List<User> associatedUsers;
-    private String status;
+    private Status status;
     private List<Task> tasks;
     
     public long getId() {

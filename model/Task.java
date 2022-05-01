@@ -2,6 +2,8 @@ package model;
 
 import java.util.List;
 
+import model.enums.Status;
+
 public class Task {
     private long id;
     private String name;
@@ -10,6 +12,7 @@ public class Task {
     private User owner;
     private Role role;
     private List<Task> dependendTasks;
+    private Status status;
     
     public long getId() {
         return id;
@@ -53,6 +56,12 @@ public class Task {
     public void setDependendTasks(List<Task> dependendTasks) {
         this.dependendTasks = dependendTasks;
     }
-
+    public Status getStatus() {
+        return status;
+    }
+    public void setStatus(Status status) {
+        this.status = status;
+    }
+    
     
 }

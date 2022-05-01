@@ -25,3 +25,6 @@ Models / Entities:
 4 . Role
 
 5 . Status (Enum)
+
+
+![UML Class Diagram](https://github.com/Sarathvarun/ProjectManagementApplication/blob/main/ClassDiagram.jpeg)
