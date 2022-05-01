@@ -13,4 +13,5 @@ Models / Entities:
 1. Project
 2 . Task
 3 . User
-4 . Role (Enum)
+4 . Role
+5 . Status (Enum)

@@ -2,15 +2,14 @@ package model;
 
 import java.util.List;
 
-public class Project {
+public class Task {
     private long id;
     private String name;
     private long startDate;
     private long dueDate;
     private User owner;
-    private List<User> associatedUsers;
-    private String status;
-    private List<Task> tasks;
+    private Role role;
+    private List<Task> dependendTasks;
     
     public long getId() {
         return id;
@@ -42,24 +41,18 @@ public class Project {
     public void setOwner(User owner) {
         this.owner = owner;
     }
-    public List<User> getAssociatedUsers() {
-        return associatedUsers;
+    public Role getRole() {
+        return role;
     }
-    public void setAssociatedUsers(List<User> associatedUsers) {
-        this.associatedUsers = associatedUsers;
+    public void setRole(Role role) {
+        this.role = role;
     }
-    public String getStatus() {
-        return status;
+    public List<Task> getDependendTasks() {
+        return dependendTasks;
     }
-    public void setStatus(String status) {
-        this.status = status;
+    public void setDependendTasks(List<Task> dependendTasks) {
+        this.dependendTasks = dependendTasks;
     }
-    public List<Task> getTasks() {
-        return tasks;
-    }
-    public void setTasks(List<Task> tasks) {
-        this.tasks = tasks;
-    }
-    
+
     
 }
