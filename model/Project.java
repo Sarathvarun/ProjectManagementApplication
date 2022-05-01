@@ -2,6 +2,8 @@ package model;
 
 import java.util.List;
 
+import model.enums.Status;
+
 public class Project {
     private long id;
     private String name;
@@ -48,10 +50,10 @@ public class Project {
     public void setAssociatedUsers(List<User> associatedUsers) {
         this.associatedUsers = associatedUsers;
     }
-    public String getStatus() {
+    public Status getStatus() {
         return status;
     }
-    public void setStatus(String status) {
+    public void setStatus(Status status) {
         this.status = status;
     }
     public List<Task> getTasks() {
