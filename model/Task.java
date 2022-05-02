@@ -11,6 +11,7 @@ public class Task {
     private long dueDate;
     private User owner;
     private Role role;
+    private long parentId;
     private List<Task> dependendTasks;
     private Status status;
     
@@ -49,6 +50,12 @@ public class Task {
     }
     public void setRole(Role role) {
         this.role = role;
+    }
+    public long getParentId() {
+        return id;
+    }
+    public void setParentId(long id) {
+        this.id = id;
     }
     public List<Task> getDependendTasks() {
         return dependendTasks;
