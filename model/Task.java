@@ -52,10 +52,10 @@ public class Task {
         this.role = role;
     }
     public long getParentId() {
-        return id;
+        return parentId;
     }
-    public void setParentId(long id) {
-        this.id = id;
+    public void setParentId(long parentId) {
+        this.parentId = parentId;
     }
     public List<Task> getDependendTasks() {
         return dependendTasks;
